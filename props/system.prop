@@ -1,6 +1,9 @@
 # Device
 ro.product.mod_device=peridot_global
 
+# Graphics
+debug.renderengine.backend=skiavkthreaded
+
 # QTI
 ro.vendor.qti.va_aosp.support=1
 
