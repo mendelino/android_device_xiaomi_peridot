@@ -14,3 +14,5 @@ ro.bluetooth.leaudio_offload.supported=true
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemservercompilerfilter=speed 
+dalvik.vm.systemuicompilerfilter=speed 
