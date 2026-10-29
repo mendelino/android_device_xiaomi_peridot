@@ -15,6 +15,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit from peridot device
 $(call inherit-product, device/xiaomi/peridot/device.mk)
 
+# Inherit some goodies stuff
+$(call inherit-product, vendor/xiaomi/peridot-extra/config.mk)
+
 PRODUCT_NAME := custom_peridot
 PRODUCT_DEVICE := peridot
 PRODUCT_MANUFACTURER := Xiaomi
