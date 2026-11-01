@@ -169,6 +169,9 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/touch-drivers \
     nxp/opensource/driver
 
+# NotGameTurbo
+include packages/apps/NotGameTurbo/BoardConfig.mk
+
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
