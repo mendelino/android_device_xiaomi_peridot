@@ -1,0 +1,2 @@
+allow vendor_hal_keymint_strongbox hal_system_suspend_service:service_manager find;
+binder_call(vendor_hal_keymint_strongbox, system_suspend_server)

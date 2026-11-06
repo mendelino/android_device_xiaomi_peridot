@@ -16,3 +16,6 @@ unix_socket_connect(hal_audio_default, property, vendor_ssgtzd)
 unix_socket_connect(hal_audio_default, property, init)
 unix_socket_connect(hal_audio_default, property, hal_sensors_default)
 get_prop(hal_audio, vendor_audio_prop)
+get_prop(hal_audio_default, exported_bluetooth_prop)
+
+dontaudit hal_audio_default vendor_hal_mediaeventgather_service:service_manager find;

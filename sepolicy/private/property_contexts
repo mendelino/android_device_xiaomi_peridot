@@ -1,0 +1,19 @@
+# Bluetooth
+persist.bluetooth.dfs.enable  u:object_r:bluetooth_config_prop:s0 exact bool
+persist.latency.add.avsync.bt u:object_r:exported_bluetooth_prop:s0 exact string
+
+# Display
+persist.sys.multi_display_type u:object_r:exported_system_prop:s0 exact string
+
+# Hardware
+ro.hardware.chipname           u:object_r:exported_default_prop:s0 exact string
+
+# Global
+ro.carrier.name                u:object_r:exported_default_prop:s0 exact string
+ro.product.marketname          u:object_r:build_prop:s0 exact string
+ro.product.mod_device          u:object_r:exported_default_prop:s0 exact string
+
+# MIUI
+ro.miui.build.region           u:object_r:exported_system_prop:s0 exact string
+ro.miui.cust_variant           u:object_r:exported_default_prop:s0 exact string
+ro.miui.customized.region      u:object_r:exported_system_prop:s0 exact string
